@@ -1,7 +1,6 @@
-import React from 'react';
 import './button.css';
 
-interface ButtonProps {
+export interface ButtonProps {
   /**
    * Is this the principal call to action on the page?
    */
@@ -28,7 +27,7 @@ interface ButtonProps {
  * Primary UI component for user interaction
  */
 export const Button = ({
-  primary = false,
+  primary = false, 
   size = 'medium',
   backgroundColor,
   label,
